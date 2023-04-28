@@ -38,13 +38,13 @@ import (
 	mintypes "github.com/cosmos/cosmos-sdk/x/mint/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
-	"github.com/0x4139/humans/crypto/hd"
-	"github.com/0x4139/humans/server/config"
-	srvflags "github.com/0x4139/humans/server/flags"
-	humans "github.com/0x4139/humans/types"
-	evmtypes "github.com/0x4139/humans/x/evm/types"
+	"github.com/maiquanghiep/humans/crypto/hd"
+	"github.com/maiquanghiep/humans/server/config"
+	srvflags "github.com/maiquanghiep/humans/server/flags"
+	humans "github.com/maiquanghiep/humans/types"
+	evmtypes "github.com/maiquanghiep/humans/x/evm/types"
 
-	"github.com/0x4139/humans/testutil/network"
+	"github.com/maiquanghiep/humans/testutil/network"
 )
 
 var (

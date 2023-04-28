@@ -8,15 +8,15 @@ import (
 	"math/big"
 
 	errorsmod "cosmossdk.io/errors"
-	rpctypes "github.com/0x4139/humans/rpc/types"
-	humans "github.com/0x4139/humans/types"
-	evmtypes "github.com/0x4139/humans/x/evm/types"
 	"github.com/cosmos/cosmos-sdk/client/flags"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/ethereum/go-ethereum/common"
+	sdk "gitgithub.com/maiquanghiep/humansk/types"
+	"github.cogithub.com/maiquanghiep/humansommon"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/core/vm"
+	rpctypes "github.com/maiquanghiep/humans/rpc/types"
+	humans "github.com/maiquanghiep/humans/types"
+	evmtypes "github.com/maiquanghiep/humans/x/evm/types"
 	"github.com/pkg/errors"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
@@ -69,7 +69,7 @@ func (b *Backend) Resend(args evmtypes.TransactionArgs, gasPrice *hexutil.Big, g
 	}
 
 	for _, tx := range pending {
-		// FIXME does Resend api possible at all?  https://github.com/0x4139/humans/issues/905
+		// FIXME does Resend api possible at all?  https://github.com/maiquanghiep/humanshumans/issues/905
 		p, err := evmtypes.UnwrapEthereumMsg(tx, common.Hash{})
 		if err != nil {
 			// not valid ethereum tx

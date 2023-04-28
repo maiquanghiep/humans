@@ -6,8 +6,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/std"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	cryptocodec "github.com/0x4139/humans/crypto/codec"
-	humans "github.com/0x4139/humans/types"
+	cryptocodec "github.com/maiquanghiep/humans/crypto/codec"
+	humans "github.com/maiquanghiep/humans/types"
 )
 
 // RegisterLegacyAminoCodec registers Interfaces from types, crypto, and SDK std.

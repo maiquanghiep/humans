@@ -24,9 +24,9 @@ import (
 	"github.com/ethereum/go-ethereum/core/vm"
 	ethparams "github.com/ethereum/go-ethereum/params"
 
-	humans "github.com/0x4139/humans/types"
-	"github.com/0x4139/humans/x/evm/statedb"
-	"github.com/0x4139/humans/x/evm/types"
+	humans "github.com/maiquanghiep/humans/types"
+	"github.com/maiquanghiep/humans/x/evm/statedb"
+	"github.com/maiquanghiep/humans/x/evm/types"
 )
 
 var _ types.QueryServer = Keeper{}

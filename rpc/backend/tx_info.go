@@ -5,14 +5,14 @@ import (
 	"math/big"
 
 	errorsmod "cosmossdk.io/errors"
-	rpctypes "github.com/0x4139/humans/rpc/types"
-	humans "github.com/0x4139/humans/types"
-	evmtypes "github.com/0x4139/humans/x/evm/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.github.com/maiquanghiep/humans/common"
+	"github.cogithub.com/maiquanghiep/humansommon/hexutil"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/crypto"
+	rpctypes "github.com/maiquanghiep/humans/rpc/types"
+	humans "github.com/maiquanghiep/humans/types"
+	evmtypes "github.com/maiquanghiep/humans/x/evm/types"
 	"github.com/pkg/errors"
 	tmrpctypes "github.com/tendermint/tendermint/rpc/core/types"
 )
@@ -121,7 +121,7 @@ func (b *Backend) getTransactionByHashPending(txHash common.Hash) (*rpctypes.RPC
 func (b *Backend) GetGasUsed(res *humans.TxResult, price *big.Int, gas uint64) uint64 {
 	// patch gasUsed if tx is reverted and happened before height on which fixed was introduced
 	// to return real gas charged
-	// more info at https://github.com/0x4139/humans/pull/1557
+	// more info at https://github.com/maiquanghiep/humanshumans/pull/1557
 	if res.Failed && res.Height < b.cfg.JSONRPC.FixRevertGasRefundHeight {
 		return new(big.Int).Mul(price, new(big.Int).SetUint64(gas)).Uint64()
 	}

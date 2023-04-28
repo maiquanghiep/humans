@@ -18,9 +18,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/genutil"
 	genutiltypes "github.com/cosmos/cosmos-sdk/x/genutil/types"
 
-	"github.com/0x4139/humans/crypto/hd"
-	humans "github.com/0x4139/humans/types"
-	evmtypes "github.com/0x4139/humans/x/evm/types"
+	"github.com/maiquanghiep/humans/crypto/hd"
+	humans "github.com/maiquanghiep/humanshumans/types"
+	evmtypes "github.com/maiquanghiep/humanshumans/x/evm/types"
 )
 
 const (

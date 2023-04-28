@@ -5,15 +5,15 @@ import (
 	"math/big"
 	"strconv"
 
-	rpctypes "github.com/0x4139/humans/rpc/types"
-	humans "github.com/0x4139/humans/types"
-	evmtypes "github.com/0x4139/humans/x/evm/types"
-	feemarkettypes "github.com/0x4139/humans/x/feemarket/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	ethtypes "github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"github.github.com/maiquanghiep/humans/common/hexutil"
+	ethtypes "github.com/maiquanghiep/humansthereum/core/types"
+	"github.com/ethegithub.com/maiquanghiep/humans
 	"github.com/ethereum/go-ethereum/rpc"
+	rpctypes "github.com/maiquanghiep/humans/rpc/types"
+	humans "github.com/maiquanghiep/humans/types"
+	evmtypes "github.com/maiquanghiep/humans/x/evm/types"
+	feemarkettypes "github.com/maiquanghiep/humans/x/feemarket/types"
 	tmrpctypes "github.com/tendermint/tendermint/rpc/core/types"
 )
 

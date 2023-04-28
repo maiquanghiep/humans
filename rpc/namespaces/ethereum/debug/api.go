@@ -14,7 +14,7 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 
-	evmtypes "github.com/0x4139/humans/x/evm/types"
+	evmtypes "github.com/maiquanghiep/humans/x/evm/types"
 
 	stderrors "github.com/pkg/errors"
 
@@ -24,8 +24,8 @@ import (
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/consensus/ethash"
 	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/0x4139/humans/rpc/backend"
-	rpctypes "github.com/0x4139/humans/rpc/types"
+	"github.com/maiquanghiep/humanshumans/rpc/backend"
+	rpctypes "github.com/maiquanghiep/humanshumans/rpc/types"
 	"github.com/tendermint/tendermint/libs/log"
 )
 

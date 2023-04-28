@@ -10,8 +10,8 @@ import (
 	"github.com/tendermint/tendermint/libs/cli"
 
 	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	clientkeys "github.com/0x4139/humans/client/keys"
-	"github.com/0x4139/humans/crypto/hd"
+	clientkeys "github.com/maiquanghiep/humans/client/keys"
+	"github.com/maiquanghiep/humans/crypto/hd"
 )
 
 // KeyCommands registers a sub-tree of commands to interact with

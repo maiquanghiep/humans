@@ -7,11 +7,11 @@ import (
 	errorsmod "cosmossdk.io/errors"
 	sdkmath "cosmossdk.io/math"
 
-	humans "github.com/0x4139/humans/types"
-	"github.com/0x4139/humans/x/evm/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	errortypes "github.com/cosmos/cosmos-sdk/types/errors"
+	egithub.com/maiquanghiep/humanssmos/cosmos-sdk/types/errors"
 	authante "github.com/cosmos/cosmos-sdk/x/auth/ante"
+	humans "github.com/maiquanghiep/humans/types"
+	"github.com/maiquanghiep/humans/x/evm/types"
 )
 
 // NewDynamicFeeChecker returns a `TxFeeChecker` that applies a dynamic fee to
